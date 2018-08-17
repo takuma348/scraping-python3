@@ -4,7 +4,7 @@ from requests.compat import urljoin
 from bs4 import BeautifulSoup
 
 
-url = 'https://www.kikkoman.co.jp/homecook/search/recipe/00003600/index.html'
+url = ''
 images = [] # 画像リストの配列
 
 def download_images(url):
